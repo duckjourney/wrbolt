@@ -1,0 +1,35 @@
+nav {
+  min-height: 100px;
+  width: 100vw;
+  background-color: #5878b8;
+  font-size: 1.5rem;
+  margin-bottom: 5vmin;
+  user-select: none;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  list-style: none;
+  gap: 0;
+}
+
+.list {
+  width: 100%;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+  text-decoration: none;
+  color: #e4ebf5;
+  &:hover{
+    background-color: #6b90c6;
+  }
+}
+

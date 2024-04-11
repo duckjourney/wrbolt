@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10vmin;
+  width: 100%;
+  user-select: none;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3vmin;
+  list-style: none;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  background: none;
+  background-color: #5878b8;
+  border-radius: 50px;
+  transition: all 0.2s;
+  &:hover {
+    background-color: #6b90c6;
+  }
+}
+
+.roleIcons {
+  height: 7vh;
+  width: 7vh;
+  padding: 10px;
+  filter: brightness(300%);
+}
+
+input {
+  min-height: 7vh;
+  min-width: 15vw;
+  padding-left: 1vmin;
+  font-size: 1.2rem;
+  border: 2px solid #5878b8;
+  border-radius: 5px;
+  background-color: #e4ebf5;
+}
+
+@media (width <= 1024px) {
+  .container {
+    flex-direction: column;
+    gap: 3vmin;
+  }
+}

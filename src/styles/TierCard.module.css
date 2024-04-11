@@ -1,0 +1,107 @@
+section {
+  min-height: 30vh;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 900;
+  margin-bottom: 2vmin;
+}
+
+.tierContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3vmin;
+  margin: 5vmin 7vmin;
+}
+
+.tier {
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 90vw;
+  min-height: 20vmin;
+  border-radius: 10px;
+  background-color: #e4ebf5;
+  padding-right: 2vmin;
+}
+
+.tierClass {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 10vmin;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  color: #e4ebf5;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-right: 3vmin;
+}
+
+.tierSPlus {
+  background-color: #fd554f;
+}
+.tierS {
+  background-color: #ff8d80;
+}
+.tierA {
+  background-color: #F7AB73;
+}
+.tierB {
+  background-color: #f6c15a;
+}
+
+.champList {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 3vmin;
+  flex-wrap: wrap;
+  padding: 2vmin 0;
+}
+
+.link {
+  overflow: hidden;
+}
+
+.borderShow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 12vmin;
+  width: 12vmin;
+  border: 0.5vmin solid #6b90c6;
+  border-radius: 200px;
+  overflow: hidden;
+}
+
+.portrait {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  transition: all 0.2s;
+  overflow: hidden;
+  &:hover{
+    transform: scale(1.1);
+  }
+}
+
+.borderHide {
+  display: none;
+}
+
+.portraitHide {
+  display: none;
+}

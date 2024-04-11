@@ -1,0 +1,58 @@
+.championsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.championsList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2.5vmin;
+  padding: 0 3vmin;
+  list-style: none;
+  margin: 5vmin 0;
+}
+
+.linkShow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15vmin;
+  width: 15vmin;
+  overflow: hidden;
+}
+
+.borderShow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.5vmin solid #6b90c6;
+  border-radius: 200px;
+  overflow: hidden;
+}
+
+.linkHide {
+  display: none;
+}
+
+.borderHide {
+  display: none;
+}
+
+.portraitShow {
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  transition: all 0.2s;
+  &:hover{
+    transform:scale(1.1);
+  }
+}
+
+.portraitHide {
+  display: none;
+}
+
