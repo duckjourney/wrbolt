@@ -1,8 +1,20 @@
-# React + Vite
+# League of Legends Wild Rift Champion and Tier List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple web application providing a champion list and tier list for League of Legends Wild Rift, featuring search and filtering functionality.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* **Champion List:**
+    * Searchable by champion name
+    * Filterable by role
+* **Tier List:**  
+    * Clear visual representation of champion rankings within tiers
+* **Navigation:**
+    * Navbar for easy switching between Champion List and Tier List
+
+## Technologies Used
+  
+* **Frontend:** 
+    * HTML
+    * CSS
+    * JavaScript (React)
